@@ -1,0 +1,21 @@
+<div class="col">
+    <div class="card mb-4  ">
+        <div class="card-header py-3 ">
+            <h4 class="my-0 fw-normal text-center">{{product.nombre}}</h4>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title pricing-card-title text-center">S/.{{product.precio}}</h2>
+            <br>
+            <h5 class="text-center text-black">Permitido</h5>
+            <ul class="list-unstyled mt-3 mb-4">
+                <li class="text-start"><i class="bi bi-check" style="color: #63ff92;"></i>Camara fotografica o
+                    celulares</li>
+                <li class="text-start"><i class="bi bi-check" style="color: #63ff92;"></i>Botella de agua
+                    potable</li>
+                <li class="text-start"><i class="bi bi-check" style="color: #63ff92;"></i>Protector solar</li>
+                <li class="text-start"><i class="bi bi-check" style="color: #63ff92;"></i>Sobrero o gorra</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg" (click)="addToCart()">Añadir al Carrito</button>
+        </div>
+    </div>
+</div>

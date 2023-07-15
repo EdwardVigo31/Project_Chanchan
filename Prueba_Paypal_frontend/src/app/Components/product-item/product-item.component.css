@@ -1,0 +1,73 @@
+body{
+    padding: 8px;
+    background-color: rgb(234, 234, 234);
+}
+.entrada{
+    height: 400px;  
+    margin:5px;
+}
+.boleto{
+    height: 450px;  
+    margin-top: 5px;
+    margin-left: 20px;
+    
+}
+.contenedor-compra{
+    margin: auto;
+}
+.entrada,
+.nn,
+.boleto{
+    border-radius: 5px;
+}
+.Permitido{
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+    height: 200px;
+}
+h4{
+    font-weight: bold;
+}
+.bol{
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+}
+button {
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: #E2A542;
+    color: #ffff;
+    display: block;
+    width: 40%;
+    margin: auto;
+}
+.btn{
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+    background-color: #E2A542;
+    color: #ffff;
+    display: block;
+    width: 15%;
+}
+.bi-ticket-perforated,
+.bi-person-fill{
+    color: #ff9d00;
+    margin-right: 15px;
+}
+p{
+    color: #E2A542;
+
+}
+.ul{
+    margin-left: 50px;
+}
+input{
+    margin-left:15%;
+    width: 60px;
+    border-radius: 10px ;
+    border:1px solid #ff9d00;
+}
