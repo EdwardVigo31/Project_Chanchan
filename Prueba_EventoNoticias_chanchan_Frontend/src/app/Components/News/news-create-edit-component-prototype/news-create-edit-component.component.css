@@ -1,0 +1,25 @@
+body{
+    background-color: #f4f4f4;
+}
+.btn-aceptar{
+    background-color: #E2A542;
+    color: #FFFFFF;
+}
+
+#events{
+
+    padding: 20px;
+    background-color: #E2A542;
+    height: 100px;
+    width: 100px;
+}
+
+.container-news{
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 50px;
+    margin-top: 2px;
+}
+
+

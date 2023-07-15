@@ -1,0 +1,37 @@
+<body>
+  <br>
+<div class="container-news">
+
+  <h1 class="text-yellow-600">{{ acto }} Noticia</h1>
+
+  <form (submit)="crearNoticia()">
+    <div class="mb-3">
+      <label for="titulo" class="form-label">Título</label>
+      <input type="text" class="form-control" name="titulo" required [(ngModel)]="newMostrar.title" placeholder="Titulo de noticia" />
+    </div>
+
+    <div class="mb-3">
+      <label for="descripcion" class="form-label">Descripción</label>
+      <textarea class="form-control" name="descripcion" rows="3" required
+        [(ngModel)]="newMostrar.description" placeholder="Descripción de la noticia"></textarea>
+    </div>
+
+    <div class="mb-3">
+      <label for="autor" class="form-label">Autor</label>
+      <input type="text" class="form-control" name="autor" required [(ngModel)]="newMostrar.autor" placeholder="Nombre"/>
+    </div>
+    <div class="col-md-4">
+    <button [routerLink]="['/newslist']" class="btn btn-secondary" type="submit">
+      Cancelar
+    </button>
+    <button *ngIf="accion" class="btn btn-aceptar float-end" type="submit">
+      Guardar Noticia
+    </button>
+    <button *ngIf="accion === false" (click)="editarNoticia()" class="btn btn-aceptar float-end" type="submit">
+      Guardar cambios
+    </button>
+    </div>
+   
+  </form>
+</div>
+</body>

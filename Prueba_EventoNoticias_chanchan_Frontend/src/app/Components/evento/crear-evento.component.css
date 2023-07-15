@@ -1,0 +1,19 @@
+.btn-aceptar{
+    background-color: #E2A542;
+    color: #FFFFFF;
+    width: 40%;
+}
+.btn-secondary{
+    width: 30%;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+.container-forms{
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 50px;
+    margin-top: 2px;
+}
